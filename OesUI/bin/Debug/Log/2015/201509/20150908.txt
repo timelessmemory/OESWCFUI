@@ -1,0 +1,284 @@
+
+ 
+记录时间：2015-09-08 22:03:11,073 
+线程ID:[5952] 
+日志级别：  ERROR 
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Error
+ 
+System.ServiceModel.EndpointNotFoundException: There was no endpoint listening at http://localhost:10000/UserService that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于目标机器积极拒绝，无法连接。 127.0.0.1:10000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   --- End of inner exception stack trace ---
+
+Server stack trace: 
+   at System.ServiceModel.Security.IssuanceTokenProviderBase`1.DoNegotiation(TimeSpan timeout)
+   at System.ServiceModel.Security.SspiNegotiationTokenProvider.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Security.WrapperSecurityCommunicationObject.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Security.CommunicationObjectSecurityTokenProvider.Open(TimeSpan timeout)
+   at System.ServiceModel.Security.SymmetricSecurityProtocol.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Security.WrapperSecurityCommunicationObject.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.SecurityChannelFactory`1.ClientSecurityChannel`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Security.SecuritySessionSecurityTokenProvider.DoOperation(SecuritySessionOperation operation, EndpointAddress target, Uri via, SecurityToken currentToken, TimeSpan timeout)
+   at System.ServiceModel.Security.SecuritySessionSecurityTokenProvider.GetTokenCore(TimeSpan timeout)
+   at System.IdentityModel.Selectors.SecurityTokenProvider.GetToken(TimeSpan timeout)
+   at System.ServiceModel.Security.SecuritySessionClientSettings`1.ClientSecuritySessionChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at OesUI.UserService.IUserService.VerifyUserLogin(VerifyUserLoginRequest request)
+   at OesUI.UserService.UserServiceClient.OesUI.UserService.IUserService.VerifyUserLogin(VerifyUserLoginRequest request) in C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesWCFUI\OesClient\OesUI\Service References\UserService\Reference.cs:line 2106
+   at OesUI.UserService.UserServiceClient.VerifyUserLogin(String username, String password) in C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesWCFUI\OesClient\OesUI\Service References\UserService\Reference.cs:line 2113
+   at OesUI.LoginForm.Login_Click(Object sender, EventArgs e) in C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesWCFUI\OesClient\OesUI\LoginForm.cs:line 63
+
+ 
+记录时间：2015-09-08 22:03:31,513 
+线程ID:[5952] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-08 22:05:22,865 
+线程ID:[3820] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-08 22:07:53,840 
+线程ID:[5712] 
+日志级别：  ERROR 
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Error
+ 
+System.ServiceModel.EndpointNotFoundException: There was no endpoint listening at http://localhost:10000/UserService that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于目标机器积极拒绝，无法连接。 127.0.0.1:10000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   --- End of inner exception stack trace ---
+
+Server stack trace: 
+   at System.ServiceModel.Security.IssuanceTokenProviderBase`1.DoNegotiation(TimeSpan timeout)
+   at System.ServiceModel.Security.SspiNegotiationTokenProvider.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Security.WrapperSecurityCommunicationObject.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Security.CommunicationObjectSecurityTokenProvider.Open(TimeSpan timeout)
+   at System.ServiceModel.Security.SymmetricSecurityProtocol.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Security.WrapperSecurityCommunicationObject.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.SecurityChannelFactory`1.ClientSecurityChannel`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Security.SecuritySessionSecurityTokenProvider.DoOperation(SecuritySessionOperation operation, EndpointAddress target, Uri via, SecurityToken currentToken, TimeSpan timeout)
+   at System.ServiceModel.Security.SecuritySessionSecurityTokenProvider.GetTokenCore(TimeSpan timeout)
+   at System.IdentityModel.Selectors.SecurityTokenProvider.GetToken(TimeSpan timeout)
+   at System.ServiceModel.Security.SecuritySessionClientSettings`1.ClientSecuritySessionChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at OesUI.UserService.IUserService.VerifyUserLogin(VerifyUserLoginRequest request)
+   at OesUI.UserService.UserServiceClient.OesUI.UserService.IUserService.VerifyUserLogin(VerifyUserLoginRequest request) in C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesWCFUI\OesClient\OesUI\Service References\UserService\Reference.cs:line 2106
+   at OesUI.UserService.UserServiceClient.VerifyUserLogin(String username, String password) in C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesWCFUI\OesClient\OesUI\Service References\UserService\Reference.cs:line 2113
+   at OesUI.LoginForm.Login_Click(Object sender, EventArgs e) in C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesWCFUI\OesClient\OesUI\LoginForm.cs:line 63
+
+ 
+记录时间：2015-09-08 22:07:58,216 
+线程ID:[5712] 
+日志级别：  ERROR 
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Error
+ 
+System.ServiceModel.EndpointNotFoundException: There was no endpoint listening at http://localhost:10000/UserService that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于目标机器积极拒绝，无法连接。 127.0.0.1:10000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   --- End of inner exception stack trace ---
+
+Server stack trace: 
+   at System.ServiceModel.Security.IssuanceTokenProviderBase`1.DoNegotiation(TimeSpan timeout)
+   at System.ServiceModel.Security.SspiNegotiationTokenProvider.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Security.WrapperSecurityCommunicationObject.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Security.CommunicationObjectSecurityTokenProvider.Open(TimeSpan timeout)
+   at System.ServiceModel.Security.SymmetricSecurityProtocol.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Security.WrapperSecurityCommunicationObject.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.SecurityChannelFactory`1.ClientSecurityChannel`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Security.SecuritySessionSecurityTokenProvider.DoOperation(SecuritySessionOperation operation, EndpointAddress target, Uri via, SecurityToken currentToken, TimeSpan timeout)
+   at System.ServiceModel.Security.SecuritySessionSecurityTokenProvider.GetTokenCore(TimeSpan timeout)
+   at System.IdentityModel.Selectors.SecurityTokenProvider.GetToken(TimeSpan timeout)
+   at System.ServiceModel.Security.SecuritySessionClientSettings`1.ClientSecuritySessionChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at OesUI.UserService.IUserService.VerifyUserLogin(VerifyUserLoginRequest request)
+   at OesUI.UserService.UserServiceClient.OesUI.UserService.IUserService.VerifyUserLogin(VerifyUserLoginRequest request) in C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesWCFUI\OesClient\OesUI\Service References\UserService\Reference.cs:line 2106
+   at OesUI.UserService.UserServiceClient.VerifyUserLogin(String username, String password) in C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesWCFUI\OesClient\OesUI\Service References\UserService\Reference.cs:line 2113
+   at OesUI.LoginForm.Login_Click(Object sender, EventArgs e) in C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesWCFUI\OesClient\OesUI\LoginForm.cs:line 63
+
+ 
+记录时间：2015-09-08 22:08:05,747 
+线程ID:[5712] 
+日志级别：  ERROR 
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Error
+ 
+System.ServiceModel.EndpointNotFoundException: There was no endpoint listening at http://localhost:10000/UserService that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于目标机器积极拒绝，无法连接。 127.0.0.1:10000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   --- End of inner exception stack trace ---
+
+Server stack trace: 
+   at System.ServiceModel.Security.IssuanceTokenProviderBase`1.DoNegotiation(TimeSpan timeout)
+   at System.ServiceModel.Security.SspiNegotiationTokenProvider.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Security.WrapperSecurityCommunicationObject.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Security.CommunicationObjectSecurityTokenProvider.Open(TimeSpan timeout)
+   at System.ServiceModel.Security.SymmetricSecurityProtocol.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Security.WrapperSecurityCommunicationObject.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.SecurityChannelFactory`1.ClientSecurityChannel`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Security.SecuritySessionSecurityTokenProvider.DoOperation(SecuritySessionOperation operation, EndpointAddress target, Uri via, SecurityToken currentToken, TimeSpan timeout)
+   at System.ServiceModel.Security.SecuritySessionSecurityTokenProvider.GetTokenCore(TimeSpan timeout)
+   at System.IdentityModel.Selectors.SecurityTokenProvider.GetToken(TimeSpan timeout)
+   at System.ServiceModel.Security.SecuritySessionClientSettings`1.ClientSecuritySessionChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at OesUI.UserService.IUserService.VerifyUserLogin(VerifyUserLoginRequest request)
+   at OesUI.UserService.UserServiceClient.OesUI.UserService.IUserService.VerifyUserLogin(VerifyUserLoginRequest request) in C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesWCFUI\OesClient\OesUI\Service References\UserService\Reference.cs:line 2106
+   at OesUI.UserService.UserServiceClient.VerifyUserLogin(String username, String password) in C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesWCFUI\OesClient\OesUI\Service References\UserService\Reference.cs:line 2113
+   at OesUI.LoginForm.Login_Click(Object sender, EventArgs e) in C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesWCFUI\OesClient\OesUI\LoginForm.cs:line 63
+
+ 
+记录时间：2015-09-08 22:08:25,373 
+线程ID:[5712] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Password error!
+ 
+
+ 
+记录时间：2015-09-08 22:08:40,671 
+线程ID:[5712] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-08 22:13:37,019 
+线程ID:[5060] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-08 22:13:51,972 
+线程ID:[2676] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-08 22:14:37,332 
+线程ID:[5036] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-08 22:15:53,988 
+线程ID:[3248] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-08 22:16:11,722 
+线程ID:[2480] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-08 23:01:29,489 
+线程ID:[4488] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-08 23:06:30,659 
+线程ID:[4932] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 

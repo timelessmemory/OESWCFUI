@@ -1,0 +1,8 @@
+
+ 
+记录时间：2015-09-11 21:45:55,497 
+线程ID:[3376] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 

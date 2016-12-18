@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="about" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="AddPhoto" xml:space="preserve">
+    <value>Add a photo</value>
+  </data>
+  <data name="all" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="BasicInformaion" xml:space="preserve">
+    <value>Basic Informaion</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="ChangePasswordSuccess" xml:space="preserve">
+    <value>Update password successfully!</value>
+  </data>
+  <data name="ChineseName" xml:space="preserve">
+    <value>Chinese Name:</value>
+  </data>
+  <data name="Choose" xml:space="preserve">
+    <value>Choice</value>
+  </data>
+  <data name="confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="contact" xml:space="preserve">
+    <value>Contact us</value>
+  </data>
+  <data name="day" xml:space="preserve">
+    <value>day </value>
+  </data>
+  <data name="duration" xml:space="preserve">
+    <value>Duration:</value>
+  </data>
+  <data name="effectiveTime" xml:space="preserve">
+    <value>Effective Time:</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="endTime" xml:space="preserve">
+    <value>End Time:</value>
+  </data>
+  <data name="examDescription" xml:space="preserve">
+    <value>The Exam Description</value>
+  </data>
+  <data name="examList" xml:space="preserve">
+    <value>Exam List</value>
+  </data>
+  <data name="ExamResult" xml:space="preserve">
+    <value>Exam Result</value>
+  </data>
+  <data name="ExamResultFrag" xml:space="preserve">
+    <value>There are</value>
+  </data>
+  <data name="ExamResultFragTwo" xml:space="preserve">
+    <value>questions correct.</value>
+  </data>
+  <data name="ExamScore" xml:space="preserve">
+    <value>Exam Score:</value>
+  </data>
+  <data name="finished" xml:space="preserve">
+    <value>Finished</value>
+  </data>
+  <data name="forgetPassword" xml:space="preserve">
+    <value>Forget password?</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Gender:</value>
+  </data>
+  <data name="haveEndMessage" xml:space="preserve">
+    <value>The exam has finished!</value>
+  </data>
+  <data name="haveNotStartMessage" xml:space="preserve">
+    <value>The exam hasn't gotton time!</value>
+  </data>
+  <data name="hintFirst" xml:space="preserve">
+    <value>This is the first page!</value>
+  </data>
+  <data name="hintLast" xml:space="preserve">
+    <value>This is the last page!</value>
+  </data>
+  <data name="home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="id" xml:space="preserve">
+    <value>ID:</value>
+  </data>
+  <data name="information" xml:space="preserve">
+    <value>System information</value>
+  </data>
+  <data name="inputPageNumber" xml:space="preserve">
+    <value>Please input page number!</value>
+  </data>
+  <data name="InputPassword" xml:space="preserve">
+    <value>Please input password!</value>
+  </data>
+  <data name="Key" xml:space="preserve">
+    <value>The Key:</value>
+  </data>
+  <data name="language" xml:space="preserve">
+    <value>中文</value>
+  </data>
+  <data name="login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="myExam" xml:space="preserve">
+    <value>My Exam</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="NextQuestion" xml:space="preserve">
+    <value>Next Question</value>
+  </data>
+  <data name="NotConsistent" xml:space="preserve">
+    <value>Two password is not consistent!</value>
+  </data>
+  <data name="notCorrectPass" xml:space="preserve">
+    <value>Login password is incorrect!</value>
+  </data>
+  <data name="notice" xml:space="preserve">
+    <value>Notice</value>
+  </data>
+  <data name="password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="PasswordConfirm" xml:space="preserve">
+    <value>Password Confirm</value>
+  </data>
+  <data name="passwordRequired" xml:space="preserve">
+    <value>Login password is required!</value>
+  </data>
+  <data name="PasswordTooLong" xml:space="preserve">
+    <value>The password is too long!</value>
+  </data>
+  <data name="PicTooBig" xml:space="preserve">
+    <value>The picture size is too big, please change one!</value>
+  </data>
+  <data name="questionCount" xml:space="preserve">
+    <value>Questions:</value>
+  </data>
+  <data name="rememberMe" xml:space="preserve">
+    <value>Remember me</value>
+  </data>
+  <data name="return" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="RoleType" xml:space="preserve">
+    <value>Role Type:</value>
+  </data>
+  <data name="rule" xml:space="preserve">
+    <value>Examination rules</value>
+  </data>
+  <data name="searchMessage" xml:space="preserve">
+    <value>Please input keyword</value>
+  </data>
+  <data name="SetAvatar" xml:space="preserve">
+    <value>Set as my avatar</value>
+  </data>
+  <data name="startTest" xml:space="preserve">
+    <value>Start Testing</value>
+  </data>
+  <data name="startTime" xml:space="preserve">
+    <value>Start The Exam</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="Submits" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="TakeExamFragFive" xml:space="preserve">
+    <value>questions in this test.</value>
+  </data>
+  <data name="TakeExamFragFour" xml:space="preserve">
+    <value>points, you got</value>
+  </data>
+  <data name="TakeExamFragOne" xml:space="preserve">
+    <value>Only one correct answer,</value>
+  </data>
+  <data name="TakeExamFragThree" xml:space="preserve">
+    <value>Your score is</value>
+  </data>
+  <data name="TakeExamFragTwo" xml:space="preserve">
+    <value>points each.</value>
+  </data>
+  <data name="TelephoneNumber" xml:space="preserve">
+    <value>Telephone Number:</value>
+  </data>
+  <data name="TimeUp" xml:space="preserve">
+    <value>Your time is up, the system has automatically submitted to the test!</value>
+  </data>
+  <data name="Timing" xml:space="preserve">
+    <value>Timing</value>
+  </data>
+  <data name="totalScore" xml:space="preserve">
+    <value>Total:</value>
+  </data>
+  <data name="unfinished" xml:space="preserve">
+    <value>Unfinished</value>
+  </data>
+  <data name="userAndPasswordRequired" xml:space="preserve">
+    <value>Username and login password are required!</value>
+  </data>
+  <data name="userName" xml:space="preserve">
+    <value>UserName</value>
+  </data>
+  <data name="userNameNotExist" xml:space="preserve">
+    <value>Username does't exist!</value>
+  </data>
+  <data name="userNameRequired" xml:space="preserve">
+    <value>Username is required!</value>
+  </data>
+  <data name="UserNames" xml:space="preserve">
+    <value>UserName:</value>
+  </data>
+  <data name="ViewResult" xml:space="preserve">
+    <value>View the exam results detail</value>
+  </data>
+  <data name="haveToken" xml:space="preserve">
+    <value>You have token this exam!</value>
+  </data>
+  <data name="forgetPasswordMessage" xml:space="preserve">
+    <value>We will send a email with verification code to your email box if you want to get reset your password. Are you sure?</value>
+  </data>
+  <data name="EmailRequired" xml:space="preserve">
+    <value>Email is required!</value>
+  </data>
+  <data name="UserNameAndEmail" xml:space="preserve">
+    <value>Username and password are required!</value>
+  </data>
+  <data name="FindPassword" xml:space="preserve">
+    <value>Forget Password</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="UserAndEmailNotMatch" xml:space="preserve">
+    <value>User name and email doesn't match!</value>
+  </data>
+  <data name="ContentOne" xml:space="preserve">
+    <value>Your verification code is: </value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>Verification Code</value>
+  </data>
+  <data name="EmailHasSend" xml:space="preserve">
+    <value>Email has been sent to your email-box, please check for it!</value>
+  </data>
+  <data name="PasswordTwoRequired" xml:space="preserve">
+    <value>The password confirm is required!</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>Reset Password</value>
+  </data>
+  <data name="VerificationCode" xml:space="preserve">
+    <value>Verification code</value>
+  </data>
+  <data name="VerificationCodeError" xml:space="preserve">
+    <value>The verification is incorrect, three error input will be disabled!</value>
+  </data>
+  <data name="VeriticationCodeReq" xml:space="preserve">
+    <value>Verification code is required!</value>
+  </data>
+  <data name="Emails" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="ChangePasswordUnsuccess" xml:space="preserve">
+    <value>Update password unsuccessfully!</value>
+  </data>
+  <data name="EmailFail" xml:space="preserve">
+    <value>Failed to send email, please try again!</value>
+  </data>
+  <data name="PasswordIsRequired" xml:space="preserve">
+    <value>Password is required!</value>
+  </data>
+  <data name="TimeOut" xml:space="preserve">
+    <value>Verification is time out, please resend it!</value>
+  </data>
+  <data name="Resend" xml:space="preserve">
+    <value>Resend</value>
+  </data>
+  <data name="HasSendEmail" xml:space="preserve">
+    <value>You have sent email, please try later!</value>
+  </data>
+  <data name="NoSpace" xml:space="preserve">
+    <value>The space isn't allowed!</value>
+  </data>
+</root>

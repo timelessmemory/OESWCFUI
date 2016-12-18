@@ -1,0 +1,493 @@
+
+ 
+记录时间：2015-09-14 08:48:06,951 
+线程ID:[5936] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 08:50:40,327 
+线程ID:[4312] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 09:52:43,453 
+线程ID:[5412] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 10:03:27,848 
+线程ID:[4736] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 10:20:49,339 
+线程ID:[5892] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 10:21:51,027 
+线程ID:[3544] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 10:28:29,779 
+线程ID:[1572] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 10:29:34,311 
+线程ID:[5316] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 10:30:17,498 
+线程ID:[5712] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 10:34:20,141 
+线程ID:[4140] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 10:34:20,203 
+线程ID:[4140] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 10:42:15,972 
+线程ID:[4984] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 10:53:26,992 
+线程ID:[1504] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 11:34:58,492 
+线程ID:[3388] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Password error!
+ 
+
+ 
+记录时间：2015-09-14 11:35:05,883 
+线程ID:[3388] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 11:36:55,915 
+线程ID:[548] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 11:38:41,572 
+线程ID:[4948] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 11:40:31,682 
+线程ID:[5824] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 11:46:01,590 
+线程ID:[5536] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 11:52:41,921 
+线程ID:[3992] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 11:54:38,484 
+线程ID:[5624] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 11:54:48,172 
+线程ID:[5052] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 11:54:48,234 
+线程ID:[5052] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 12:03:36,816 
+线程ID:[5960] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 12:04:27,378 
+线程ID:[4896] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 12:05:02,082 
+线程ID:[5672] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 12:05:58,785 
+线程ID:[400] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 13:00:18,837 
+线程ID:[5008] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 13:00:53,869 
+线程ID:[6064] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 13:05:57,074 
+线程ID:[5608] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 13:11:03,279 
+线程ID:[4664] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 13:13:44,358 
+线程ID:[4740] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 15:01:44,431 
+线程ID:[4756] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 15:04:04,494 
+线程ID:[784] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 15:04:04,557 
+线程ID:[784] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 15:05:26,901 
+线程ID:[3128] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 15:15:22,905 
+线程ID:[6020] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 15:16:03,280 
+线程ID:[3708] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 15:17:09,874 
+线程ID:[5204] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 15:18:12,093 
+线程ID:[1848] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 15:19:14,406 
+线程ID:[1720] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 15:36:03,397 
+线程ID:[4416] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 15:36:09,319 
+线程ID:[400] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 15:37:39,070 
+线程ID:[5588] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 15:37:39,132 
+线程ID:[5588] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 15:37:53,570 
+线程ID:[4504] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 15:38:10,507 
+线程ID:[5700] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 15:38:10,570 
+线程ID:[5700] 
+日志级别：  ERROR 
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Error
+ 
+System.IO.IOException: The process cannot access the file 'C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesWCFUI\OesClient\OesUI\bin\Debug\data.bin' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at OesUI.LoginForm.Login_Click(Object sender, EventArgs e) in C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesWCFUI\OesClient\OesUI\LoginForm.cs:line 91
+
+ 
+记录时间：2015-09-14 15:38:19,554 
+线程ID:[4992] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 15:38:19,601 
+线程ID:[4992] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 15:38:25,039 
+线程ID:[2072] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 15:39:50,055 
+线程ID:[4908] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 15:40:32,415 
+线程ID:[5200] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 16:23:00,165 
+线程ID:[3056] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 19:39:09,272 
+线程ID:[1224] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 19:47:35,259 
+线程ID:[3976] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 19:52:01,292 
+线程ID:[5668] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-14 19:52:09,480 
+线程ID:[5668] 
+日志级别：  ERROR 
+出错类：OesUI.UserProfileForm property: [(null)] - 
+错误描述：Error
+ 
+System.OutOfMemoryException: Out of memory.
+   at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromFile(String filename)
+   at OesUI.UserProfileForm.Button_Click(Object sender, EventArgs e) in C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesWCFUI\OesClient\OesUI\UserProfileForm.cs:line 313
+
+ 
+记录时间：2015-09-14 19:52:12,402 
+线程ID:[5668] 
+日志级别：  ERROR 
+出错类：OesUI.UserProfileForm property: [(null)] - 
+错误描述：Error
+ 
+System.OutOfMemoryException: Out of memory.
+   at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromFile(String filename)
+   at OesUI.UserProfileForm.Button_Click(Object sender, EventArgs e) in C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesWCFUI\OesClient\OesUI\UserProfileForm.cs:line 313
+
+ 
+记录时间：2015-09-14 23:13:44,917 
+线程ID:[5108] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 

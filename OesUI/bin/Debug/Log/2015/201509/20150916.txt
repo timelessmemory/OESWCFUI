@@ -1,0 +1,305 @@
+
+ 
+记录时间：2015-09-16 00:26:41,132 
+线程ID:[864] 
+日志级别：  ERROR 
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Error
+ 
+System.ServiceModel.EndpointNotFoundException: There was no endpoint listening at http://localhost:10000/UserService that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于目标机器积极拒绝，无法连接。 127.0.0.1:10000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   --- End of inner exception stack trace ---
+
+Server stack trace: 
+   at System.ServiceModel.Security.IssuanceTokenProviderBase`1.DoNegotiation(TimeSpan timeout)
+   at System.ServiceModel.Security.SspiNegotiationTokenProvider.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Security.WrapperSecurityCommunicationObject.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Security.CommunicationObjectSecurityTokenProvider.Open(TimeSpan timeout)
+   at System.ServiceModel.Security.SymmetricSecurityProtocol.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Security.WrapperSecurityCommunicationObject.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.SecurityChannelFactory`1.ClientSecurityChannel`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Security.SecuritySessionSecurityTokenProvider.DoOperation(SecuritySessionOperation operation, EndpointAddress target, Uri via, SecurityToken currentToken, TimeSpan timeout)
+   at System.ServiceModel.Security.SecuritySessionSecurityTokenProvider.GetTokenCore(TimeSpan timeout)
+   at System.IdentityModel.Selectors.SecurityTokenProvider.GetToken(TimeSpan timeout)
+   at System.ServiceModel.Security.SecuritySessionClientSettings`1.ClientSecuritySessionChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at OesUI.UserService.IUserService.VerifyUserLogin(VerifyUserLoginRequest request)
+   at OesUI.UserService.UserServiceClient.OesUI.UserService.IUserService.VerifyUserLogin(VerifyUserLoginRequest request) in C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesWCFUI\OesClient\OesUI\Service References\UserService\Reference.cs:line 2855
+   at OesUI.UserService.UserServiceClient.VerifyUserLogin(String username, String password) in C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesWCFUI\OesClient\OesUI\Service References\UserService\Reference.cs:line 2862
+   at OesUI.LoginForm.Login_Click(Object sender, EventArgs e) in C:\Documents and Settings\mario.li\My Documents\Visual Studio 2010\Projects\OesWCFUI\OesClient\OesUI\LoginForm.cs:line 70
+
+ 
+记录时间：2015-09-16 00:26:54,710 
+线程ID:[864] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-16 00:29:20,228 
+线程ID:[184] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-16 00:30:28,041 
+线程ID:[3988] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-16 00:32:25,105 
+线程ID:[2416] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-16 00:33:14,637 
+线程ID:[3376] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-16 00:42:29,019 
+线程ID:[3820] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-16 08:49:06,952 
+线程ID:[124] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-16 08:50:46,625 
+线程ID:[596] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-16 08:51:36,938 
+线程ID:[2952] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-16 09:50:24,810 
+线程ID:[2200] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-16 10:09:02,965 
+线程ID:[1716] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-16 10:15:28,407 
+线程ID:[2952] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-16 10:16:16,970 
+线程ID:[2856] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-16 10:16:48,205 
+线程ID:[3708] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-16 10:19:03,191 
+线程ID:[3776] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-16 10:20:09,958 
+线程ID:[1684] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-16 10:21:04,318 
+线程ID:[224] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-16 10:21:55,068 
+线程ID:[956] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-16 10:23:23,960 
+线程ID:[732] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-16 10:26:28,462 
+线程ID:[2284] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-16 10:28:23,558 
+线程ID:[2424] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-16 10:29:49,293 
+线程ID:[1396] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-16 10:34:43,531 
+线程ID:[492] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-16 10:40:17,410 
+线程ID:[3540] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-16 10:42:22,803 
+线程ID:[724] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-16 10:43:28,835 
+线程ID:[2388] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-16 10:45:01,008 
+线程ID:[408] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-16 10:54:33,296 
+线程ID:[1960] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-16 11:02:20,459 
+线程ID:[3996] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-16 11:03:19,163 
+线程ID:[2788] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Password error!
+ 
+
+ 
+记录时间：2015-09-16 11:03:21,272 
+线程ID:[2788] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
+
+ 
+记录时间：2015-09-16 11:03:21,303 
+线程ID:[2788] 
+日志级别：  INFO  
+出错类：OesUI.LoginForm property: [(null)] - 
+错误描述：Login successfully!
+ 
